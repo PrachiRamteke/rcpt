@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SampleReceiptCamera</string>
+
+    <string name="str_camera_toast">10センチ程度離して\n撮影してください。\nなるべく明るいところで、\nまっすぐに撮影してください。</string>
+    <string name="str_camera_help">日付、品目、合計金額が\nフレーム内におさまるよう、\nまた、補助線とできるだけ\n平行となるように\n撮影してください。</string>
+    <string name="str_camera_read_receipt_ng">レシートが読み取れませんでした</string>
+    <string name="str_camera_analyzing">レシート読み取り中です。\nしばらくお待ち下さい。</string>
+    <string name="str_camera_init_err">カメラは現在利用できません</string>
+    <string name="str_camera_low_battery">電池残量が不足しています</string>
+    <string name="str_camera_out_of_memory">読み取りに失敗しました。しばらく経ってから再度、レシート撮影を行ってください。</string>
+	<string name="str_dialog_conf_title">確認</string>
+	<string name="str_dialog_conf_error">エラー</string>
+    <string name="str_on">On</string>
+    <string name="str_off">Off</string>
+	<string name="str_camera_Abnormal_err">異常エラーが発生しました。</string>
+	<string name="str_camera_normal_mode">通常モード</string>
+	<string name="str_camera_long_mode">長尺モード</string>
+
+	<!-- カメラ画面メニュー -->
+	<string name="str_camera_menu_light">ライト設定</string>
+	<string name="str_camera_menu_brightness">明るさ設定</string>
+	<string name="str_camera_menu_light_on">ON</string>
+	<string name="str_camera_menu_light_off">OFF</string>
+	<string name="str_camera_menu_brightness_1">-2</string>
+	<string name="str_camera_menu_brightness_2">-1</string>
+	<string name="str_camera_menu_brightness_3">0</string>
+	<string name="str_camera_menu_brightness_4">1</string>
+	<string name="str_camera_menu_brightness_5">2</string>
+
+	<!-- デバッグ出力フラグ -->
+	<bool name="debug_write">true</bool>
+
+    <dimen name="PADDING_HI">15dp</dimen>
+    <dimen name="PADDING_MID">10dp</dimen>
+    <dimen name="PADDING_LOW">5dp</dimen>
+
+    <dimen name="FADING_EDGE_LENGTH">5dp</dimen>
+
+	<dimen name="TExT_SIZE_LOW">10sp</dimen>
+	<dimen name="TExT_SIZE_MID">14sp</dimen>
+	<dimen name="TExT_SIZE_HI">20sp</dimen>
+
+
+</resources>

@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:10
+-keep class jp.co.isp21.sample.receipt.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class jp.co.isp21.sample.receipt.activity.camera.CameraActivity { <init>(...); }
+
+# view res/layout/activity_camera.xml #generated:24
+-keep class jp.co.isp21.sample.receipt.activity.camera.CameraOverlayView { <init>(...); }
+
+# view res/layout/activity_camera.xml #generated:19
+-keep class jp.co.isp21.sample.receipt.activity.camera.CameraView { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class jp.co.isp21.sample.receipt.activity.camera.TakePictureLastTimeActivitykePictureLastTimeActivitykePictureLastTimeActivitykePictureLastTimeActivity { <init>(...); }
+

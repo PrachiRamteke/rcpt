@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_camera_light"
+		android:title="@string/str_camera_menu_light">
+		<menu>
+			<group
+				android:id="@+id/group_camera_light"
+				android:checkableBehavior="single">
+				<item android:id="@+id/submenu_camera_light_on"
+					android:title="@string/str_camera_menu_light_on"
+					/>
+				<item android:id="@+id/submenu_camera_light_off"
+					android:title="@string/str_camera_menu_light_off"
+					/>
+			</group>
+		</menu>
+	</item>
+
+    <item android:id="@+id/menu_camera_brightness"
+		android:title="@string/str_camera_menu_brightness" >
+		<menu>
+			<group
+				android:id="@+id/group_camera_brightness"
+				android:checkableBehavior="single"
+				android:enabled="true">
+				<item android:id="@+id/submenu_camera_brightness_1"
+					android:title="@string/str_camera_menu_brightness_1" />
+				<item android:id="@+id/submenu_camera_brightness_2"
+					android:title="@string/str_camera_menu_brightness_2" />
+				<item android:id="@+id/submenu_camera_brightness_3"
+					android:title="@string/str_camera_menu_brightness_3" />
+				<item android:id="@+id/submenu_camera_brightness_4"
+					android:title="@string/str_camera_menu_brightness_4" />
+				<item android:id="@+id/submenu_camera_brightness_5"
+					android:title="@string/str_camera_menu_brightness_5" />
+			</group>
+        </menu>
+    </item>
+<!-- <item android:id="@+id/menu_help" android:title="ヘルプ"/> -->
+    <item android:id="@+id/menu_version" android:title="バージョン"/>
+
+</menu>
